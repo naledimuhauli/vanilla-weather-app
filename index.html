@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather app</title>
-    <link rel="stylesheet" href="src/style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"rel="stylesheet"intgrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
+        <div class="openn-source">
+        <div class="weather-app">
       <h1>Johannesburg South</h1>
       <ul>
         <li>Thursday, 18:56</li>
@@ -21,16 +21,23 @@
       </ul>
       <div class="row">
         <div class="col-6">
-          <h2>21°C | °F</h2>
+          <h2>
+            <strong>21</strong><span class="units">°C|°F</span>
+        </h2>
         </div>
         <div class="col-6">
           <ul>
+        <div class="description">
             <li>humidity: 14%</li>
             <li>Wind: 18km/h</li>
             <li>Preciption: 0%</li>
+            </div>
           </ul>
         </div>
       </div>
+    </div>
+     <a href="" target="_blank">Open-source code</a>, by Siphokazi Muhauli
+    </div>
     </div>
   </body>
   <script src="src/app.js"></script>
