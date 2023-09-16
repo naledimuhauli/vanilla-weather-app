@@ -38,7 +38,7 @@ li {
   color: rgb(83, 83, 83);
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .weather-app strong {
@@ -55,9 +55,9 @@ a {
   bottom: -40px;
   margin-left: 10px;
 }
-.active{
-    color: black;
+.active {
+  color: black;
 }
-.active:hover{
-    cursor: default;
+.active:hover {
+  cursor: default;
 }
