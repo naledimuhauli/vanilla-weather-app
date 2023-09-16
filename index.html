@@ -17,6 +17,20 @@
     <div class="container">
       <div class="openn-source">
         <div class="weather-app">
+          <form id="search-form" class="row g-3">
+            <div class="col-auto">
+              <input
+                type="search"
+                class="form-control"
+                id="searchInput"
+                placeholder="Enter a city"
+                autocomplete="off"
+              />
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary mb-3">Search</button>
+            </div>
+          </form>
           <h1 id="city">Johannesburg South</h1>
           <ul>
             <li>Last updated: <span id="currentDate">Thursday, 18:56</span></li>
