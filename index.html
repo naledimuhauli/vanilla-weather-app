@@ -10,27 +10,29 @@
       intgrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="openn-source">
         <div class="weather-app">
-          <h1>Johannesburg South</h1>
+          <h1 id="city">Johannesburg South</h1>
           <ul>
-            <li>Thursday, 18:56</li>
-            <li>clear</li>
+            <li>Last updated: <span id="currentDate">Thursday, 18:56</span></li>
+            <li id="description">clear</li>
           </ul>
           <div class="row">
             <div class="col-6">
-              <h2><strong>21</strong><span class="units">°C|°F</span></h2>
+              <h2>
+                <strong id="temp">21</strong><span class="units">°C|°F</span>
+              </h2>
             </div>
             <div class="col-6">
               <ul>
                 <div class="description">
-                  <li>humidity: 14%</li>
-                  <li>Wind: 18km/h</li>
-                  <li>Preciption: 0%</li>
+                  <li>humidity: <span id="humidity">14</span>%</li>
+                  <li>Wind: <span id="wind">18</span>km/h</li>
                 </div>
               </ul>
             </div>

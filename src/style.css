@@ -1,40 +1,44 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.openn-source{
-    max-width: 600px;
-    margin: 0 auto;
+.openn-source {
+  max-width: 600px;
+  margin: 0 auto;
 }
-.weather-app{
-    max-width: 600px;
-    border: solid 5px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgb(221, 230, 227);
+.weather-app {
+  max-width: 600px;
+  border: solid 5px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(221, 230, 227);
+}
+#description {
+  text-transform: capitalize;
 }
 
-h1{
-    color: rgb(29, 15, 15);
-    font-size: 30px;
+h1 {
+  color: rgb(29, 15, 15);
+  font-size: 30px;
 }
-ul{
-    padding: 0;
-    margin: 0;
+ul {
+  padding: 0;
+  margin: 0;
 }
-li{
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-    font-size: 20px;
-    color: rgb(83, 83, 83);}
+li {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 20px;
+  color: rgb(83, 83, 83);
+}
 
-.weather-app strong{
-    font-size: 55px;
-    padding: 20px 0px 20px 20px;
+.weather-app strong {
+  font-size: 55px;
+  padding: 20px 0px 20px 20px;
 }
-.units{
-    position: relative;
-    font-size: 15px;
-    top: -18px;
-    padding-left: 0;
+.units {
+  position: relative;
+  font-size: 15px;
+  top: -18px;
+  padding-left: 0;
 }
