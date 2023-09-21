@@ -61,3 +61,13 @@ a {
 .active:hover {
   cursor: default;
 }
+.weather-forecast-date {
+  font-size: 20px;
+}
+.weather-forecast-temperatures {
+  font-size: 17px;
+}
+.weather-forecast-min {
+  font-size: 18px;
+  color: rgb(83, 83, 83);
+}
